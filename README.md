@@ -4,8 +4,8 @@
 # Microsoft.Github CI Demo
 
 [![Build Status](https://dev.azure.com/demo-devops101/ContosoAirDemo01/_apis/build/status/AzureDevOps101.calculator?branchName=master)](https://dev.azure.com/demo-devops101/ContosoAirDemo01/_build/latest?definitionId=37&branchName=master)
-[![Release Status](https://vsrm.dev.azure.com/demo-devops101/_apis/public/Release/badge/2ec01f49-3b2f-455f-8d61-c4c96d169cb9/1/1)](https://vsrm.dev.azure.com/demo-devops101/_apis/public/Release/badge/2ec01f49-3b2f-455f-8d61-c4c96d169cb9/1/1)
-[![Board Status](https://dev.azure.com/demo-devops101/2ec01f49-3b2f-455f-8d61-c4c96d169cb9/d60f38ca-d97d-49c1-bda3-1c40524dabd1/_apis/work/boardbadge/7f03f2e4-8a0a-486c-8c07-5b884d35b901?columnOptions=1)](https://dev.azure.com/demo-devops101/2ec01f49-3b2f-455f-8d61-c4c96d169cb9/_boards/board/t/d60f38ca-d97d-49c1-bda3-1c40524dabd1/Microsoft.RequirementCategory)
+[![Release Status](https://vsrm.dev.azure.com/demo-devops101/_apis/public/Release/badge/2ec01f49-3b2f-455f-8d61-c4c96d169cb9/1/1)](https://dev.azure.com/demo-devops101/ContosoAirDemo01/_release?view=mine&definitionId=1)
+[![Board Status](https://dev.azure.com/demo-devops101/2ec01f49-3b2f-455f-8d61-c4c96d169cb9/d60f38ca-d97d-49c1-bda3-1c40524dabd1/_apis/work/boardbadge/7f03f2e4-8a0a-486c-8c07-5b884d35b901?columnOptions=1)](https://dev.azure.com/demo-devops101/ContosoAirDemo01/_workitems/recentlyupdated)
 
 Demo website application for Contoso Air.  
 Runs a nodejs server (Express v4.16) that stores customer booked flights in a CosmosDb database.
