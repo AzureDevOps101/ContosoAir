@@ -12,10 +12,18 @@ pool:
 
 steps:
 
-- script: |
-    npm install
-    npm run test
-  displayName: 'npm install and test'
+- task: Npm@1
+  displayName: 'npm install'
+  inputs:
+    command: install 
+    verbose: true
+
+- task: Npm@1
+  displayName: 'npm run test'
+  inputs:
+    command: custom 
+    verbose: true
+    customCommand: 'run test'
 
 - task: PublishTestResults@2
   displayName: 'Publish Test Results **/test-*.xml'
